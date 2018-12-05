@@ -1,0 +1,19 @@
+.nav-link {
+    color: orange;
+}
+
+.nav-link:hover {
+    color: orange; !important;
+}
+
+.pt-20 {
+    padding-top: 15rem;
+}
+
+.test1 {
+    margin-left: 5rem;
+    display: flex;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+}
