@@ -1,19 +1,78 @@
-.nav-link {
-    color: orange;
+body {
+    background-color: #1b1e21;
 }
 
-.nav-link:hover {
-    color: orange; !important;
+.navbar {
+    z-index: 9999;
 }
 
-.pt-20 {
-    padding-top: 15rem;
-}
-
-.test1 {
-    margin-left: 5rem;
+.slide-1 {
     display: flex;
-    justify-content: start;
-    text-align: center;
+}
+
+.slide-2 {
+    display: flex;
+}
+
+
+
+.text {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.singles {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.single-1, .single-2, .single-3, .single-4 {
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+.black-cherep, .violet-cherep, .red-cherep, .yellow-cherep {
+    box-sizing: border-box;
+    border-radius: 1rem;
+    width: 150px;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #1b1e21;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+
+}
+@media screen and (max-width: 320px) {
+    .test-slider-albums {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 100px;
+    }
+
+    .test-slider-albums-image {
+        height: 200px;
+    }
 }
