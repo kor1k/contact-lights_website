@@ -209,4 +209,10 @@ body {
     .text {
         margin-top: 1rem;
     }
+
+    .avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
+        transform: scale(1.1);
+        width: 200px;
+        height: 70px;
+    }
 }
