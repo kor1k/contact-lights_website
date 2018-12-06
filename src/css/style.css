@@ -172,6 +172,10 @@ body {
     height: 100px;
 }
 
+
+
+
+
 @media screen and (max-width: 65rem) {
     .test-slider-albums {
         display: flex;
@@ -182,6 +186,8 @@ body {
 
     .test-slider-albums-image {
         height: 17rem;
+        text-align: center;
+        width: 100%;
     }
 
     .singles {
@@ -214,5 +220,24 @@ body {
         transform: scale(1.1);
         width: 200px;
         height: 70px;
+    }
+}
+@media screen and (max-width: 780px){
+    .test-slider-albums-image {
+        height: 30rem;
+    }
+
+    .carousel {
+        height: 48rem;
+    }
+}
+
+@media screen and (max-width: 1039px){
+    .test-slider-albums-image {
+        height: 30rem;
+    }
+
+    .carousel {
+        height: 48rem;
     }
 }
