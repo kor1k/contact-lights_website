@@ -16,6 +16,18 @@ body {
     height: 100%;
 }
 
+.nav-link {
+    transition: 0.3s;
+    font-size: 18px;
+    color: orange;
+}
+
+.nav-link:hover {
+    font-size: 19px;
+    /*border-color: #0b2e13;*/
+
+}
+
 .carousel {
     height: 30rem;
 }
@@ -73,8 +85,6 @@ body {
     width: 100%;
 }
 
-
-
 .black-cherep, .violet-cherep, .red-cherep, .yellow-cherep {
     box-sizing: border-box;
     border-radius: 1rem;
@@ -122,12 +132,7 @@ body {
     flex-direction: column;
 }
 
-
 /*///////////////////////////!***ABOUT***!////////////////////////*/
-
-
-
-
 
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
 
@@ -162,7 +167,7 @@ body {
     height: 95px;
 }
 
-.avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover  {
+.avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover {
     transform: scale(1.5);
     transition: 0.4s;
 }
@@ -171,10 +176,6 @@ body {
     width: 100px;
     height: 100px;
 }
-
-
-
-
 
 @media screen and (max-width: 65rem) {
     .test-slider-albums {
@@ -193,18 +194,19 @@ body {
     .singles {
         display: flex;
         justify-content: center;
+
         flex-direction: column;
         margin: 2rem;
-    }
-
-    .carousel {
-        height: 35rem;
     }
 
     .slide-1, .slide-2 {
         display: flex;
         justify-content: center;
         flex-direction: column;
+    }
+
+    .carousel {
+        height: 35rem;
     }
 
     .slide-1-content, .slide-2-content {
@@ -222,7 +224,18 @@ body {
         height: 70px;
     }
 }
-@media screen and (max-width: 780px){
+
+@media screen and (max-width: 1039px) {
+    .test-sli der-albums-image {
+        height: 30rem;
+    }
+
+    .carousel {
+        height: 48rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
     .test-slider-albums-image {
         height: 30rem;
     }
@@ -232,12 +245,3 @@ body {
     }
 }
 
-@media screen and (max-width: 1039px){
-    .test-slider-albums-image {
-        height: 30rem;
-    }
-
-    .carousel {
-        height: 48rem;
-    }
-}
