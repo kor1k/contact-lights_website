@@ -6,6 +6,11 @@ body {
     z-index: 9999;
 }
 
+.nav-logo-white {
+    width: 5rem;
+    height: 100%;
+}
+
 .slide-1 {
     display: flex;
 }
@@ -15,7 +20,7 @@ body {
 }
 
 .test-slider-albums-image {
-    margin: 2.3rem;
+    /*margin: 2.5rem;*/
     height: 500px;
 }
 
@@ -25,7 +30,6 @@ body {
     bottom: 0;
     left: 50%;
     right: 0;
-
     /*display: flex;*/
     /*justify-content: center;*/
     /*align-items: center;*/
@@ -53,6 +57,12 @@ body {
     border-radius: 1rem;
     width: 150px;
     height: 150px;
+}
+
+.singles-about {
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
 
 .footer {
