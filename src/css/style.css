@@ -48,6 +48,7 @@ body {
     font-weight: 600;
     padding-bottom: 3rem;
     color: white;
+    margin-top: 9rem;
 }
 
 .fab {
@@ -83,8 +84,16 @@ body {
 
 .singles-about {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     color: white;
+    margin-bottom: 2rem;
+}
+
+.singles-about-2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .singles-photo-margin {
@@ -107,7 +116,13 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 60rem) {
+.TEST {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 65rem) {
     .test-slider-albums {
         display: flex;
         justify-content: center;
@@ -139,5 +154,9 @@ body {
     .slide-1-content, .slide-2-content {
         display: flex;
         flex-direction: column;
+    }
+
+    .text {
+        margin-top: 1rem;
     }
 }
