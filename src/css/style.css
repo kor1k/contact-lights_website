@@ -71,7 +71,7 @@ body {
     color: white;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 60rem) {
     .test-slider-albums {
         display: flex;
         justify-content: center;
