@@ -122,6 +122,56 @@ body {
     flex-direction: column;
 }
 
+
+/*///////////////////////////!***ABOUT***!////////////////////////*/
+
+
+
+
+
+/*///////////////////////////!***CONTACTS***!////////////////////////*/
+
+.contacts {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+
+.contacts-content {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 21px;
+    /*margin: 3rem;*/
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.aa {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
+    transform: scale(1.2);
+    width: 320px;
+    height: 95px;
+}
+
+.avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover  {
+    transform: scale(1.5);
+    transition: 0.4s;
+}
+
+.twitter-img {
+    width: 100px;
+    height: 100px;
+}
+
 @media screen and (max-width: 65rem) {
     .test-slider-albums {
         display: flex;
