@@ -293,6 +293,7 @@ body {
 
     .text {
         margin-top: 1rem;
+        font-weight: 400;
     }
 
     .avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
