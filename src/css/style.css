@@ -163,8 +163,8 @@ body {
 
 .avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
     transform: scale(1.2);
-    width: 320px;
-    height: 95px;
+    width: 250px;
+    height: 80px;
 }
 
 .avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover {
