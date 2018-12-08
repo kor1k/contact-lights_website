@@ -134,6 +134,35 @@ body {
 
 /*///////////////////////////!***ABOUT***!////////////////////////*/
 
+.about-artist {
+    color: white;
+}
+
+.photo-yarik {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    height: 380px;
+}
+
+.about-content {
+    display: flex;
+}
+
+.info-about-cl-text {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+
+/*///////////////////////////!***ABOUT***!////////////////////////*/
+
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
 
 .contacts {
@@ -176,6 +205,8 @@ body {
     width: 100px;
     height: 100px;
 }
+
+/*///////////////////////////!***CONTACTS***!////////////////////////*/
 
 @media screen and (max-width: 65rem) {
     .test-slider-albums {
@@ -271,6 +302,13 @@ body {
 
     .carousel {
         height: 33rem;
+    }
+
+    .photo-yarik {
+        display: flex;
+        justify-content: space-between;
+        width: 210px;
+        height: 270px;
     }
 }
 
