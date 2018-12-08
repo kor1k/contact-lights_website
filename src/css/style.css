@@ -16,6 +16,7 @@ body {
     height: 100%;
 }
 
+
 .nav-link {
     transition: 0.3s;
     font-size: 18px;
@@ -122,8 +123,9 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     color: white;
+    /*font-weight: 400;*/
 }
 
 .TEST {
@@ -183,27 +185,65 @@ body {
     flex-direction: row;
 }
 
-.aa {
-    color: white;
-    list-style: none;
-    text-decoration: none;
-    transition: 0.5s;
+/*.aa {*/
+    /*color: white;*/
+    /*list-style: none;*/
+    /*text-decoration: none;*/
+    /*transition: 0.5s;*/
+/*}*/
+
+.contacts-content {
+    display: flex;
+    justify-content: start;
 }
 
 .avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
     transform: scale(1.2);
-    width: 250px;
-    height: 80px;
+    width: 200px;
+    height: 65px;
+    transition: 0.4s;
 }
 
 .avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover {
     transform: scale(1.5);
-    transition: 0.4s;
+    /*transition: 0.4s;*/
 }
 
 .twitter-img {
+    margin-left: 2.5rem;
+    transition: 0.4s;
+    text-align: center;
+    align-items: center;
     width: 100px;
     height: 100px;
+}
+
+.contact-information {
+    display: flex;
+    justify-content: center;
+}
+
+.information {
+    text-align: center;
+    /*margin-top: 3rem;*/
+    margin-top: -16rem;
+    margin-bottom: 3rem;
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    display: flex;
+}
+
+.big-logo-contacts {
+    position: relative;
+    top: -30rem;
+    left: 30rem;
+    width: 500px;
+    /*height: 400px;*/
+}
+
+.big-logo-contacts:hover {
+    filter: alpha(20%);
 }
 
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
@@ -257,6 +297,26 @@ body {
         transform: scale(1.1);
         width: 200px;
         height: 70px;
+    }
+
+    .contacts-content {
+        display: flex;
+        justify-content: center;
+    }
+
+    .big-logo-contacts {
+        display: flex;
+        justify-content: center;
+        /*justify-content: center;*/
+        /*flex-direction: row;*/
+    }
+
+    .information {
+        margin-top: 2rem;
+    }
+
+    .big-logo-contacts {
+        display: none;
     }
 
 }
