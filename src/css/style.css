@@ -322,13 +322,21 @@ body {
     }
 
     .big-logo-contacts-for-mobile {
+        filter: blur(.5rem);
+        margin-top: 3rem;
+        margin-bottom: 3rem;
         display: flex;
         justify-content: center;
         text-align: center;
         align-items: center;
         /*flex-direction: row;*/
-        width: 250px;
-        height: 150px;
+        width: 290px;
+        height: 200px;
+    }
+
+    .big-logo-contacts-for-mobile:active {
+        filter: blur(0px);
+
     }
 
 }
