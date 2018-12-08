@@ -225,13 +225,18 @@ body {
     }
 }
 
-@media screen and (max-width: 1039px) {
-    .test-sli der-albums-image {
+@media screen and (max-width: 1024px) {
+    .test-slider-albums-image {
         height: 30rem;
     }
 
     .carousel {
         height: 48rem;
+    }
+
+    .singles {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -242,6 +247,15 @@ body {
 
     .carousel {
         height: 48rem;
+    }
+}
+@media screen and (max-width: 468px) {
+    .test-slider-albums-image {
+        height: 19rem;
+    }
+
+    .carousel {
+        height: 38rem;
     }
 }
 
