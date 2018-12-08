@@ -16,7 +16,6 @@ body {
     height: 100%;
 }
 
-
 .nav-link {
     transition: 0.3s;
     font-size: 18px;
@@ -162,7 +161,6 @@ body {
     font-size: 3rem;
 }
 
-
 /*///////////////////////////!***ABOUT***!////////////////////////*/
 
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
@@ -186,10 +184,10 @@ body {
 }
 
 /*.aa {*/
-    /*color: white;*/
-    /*list-style: none;*/
-    /*text-decoration: none;*/
-    /*transition: 0.5s;*/
+/*color: white;*/
+/*list-style: none;*/
+/*text-decoration: none;*/
+/*transition: 0.5s;*/
 /*}*/
 
 .contacts-content {
@@ -239,11 +237,12 @@ body {
     top: -30rem;
     left: 30rem;
     width: 500px;
-    /*height: 400px;*/
+    filter: blur(0.7rem);
+    transition: 0.5s;
 }
 
 .big-logo-contacts:hover {
-    filter: alpha(20%);
+    filter: blur(0px);
 }
 
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
@@ -345,6 +344,7 @@ body {
         height: 48rem;
     }
 }
+
 @media screen and (max-width: 468px) {
     .test-slider-albums-image {
         height: 19rem;
