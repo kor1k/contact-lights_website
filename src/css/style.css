@@ -55,7 +55,7 @@ body {
     /*display: flex;*/
     /*justify-content: center;*/
     /*align-items: center;*/
-    text-align: center;
+    /*text-align: center;*/
     font-size: 1.25rem;
     font-weight: 600;
     padding-bottom: 3rem;
@@ -191,6 +191,10 @@ body {
         width: 100%;
     }
 
+    .text {
+        text-align: center;
+    }
+
     .singles {
         display: flex;
         justify-content: center;
@@ -223,6 +227,7 @@ body {
         width: 200px;
         height: 70px;
     }
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -258,4 +263,17 @@ body {
         height: 38rem;
     }
 }
+
+@media screen and (max-width: 340px) {
+    .test-slider-albums-image {
+        height: 15rem;
+    }
+
+    .carousel {
+        height: 33rem;
+    }
+}
+
+
+
 
