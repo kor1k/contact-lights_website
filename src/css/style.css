@@ -24,8 +24,6 @@ body {
 
 .nav-link:hover {
     font-size: 19px;
-    /*border-color: #0b2e13;*/
-
 }
 
 .carousel {
@@ -42,7 +40,6 @@ body {
 }
 
 .test-slider-albums-image {
-    /*margin: 2.5rem;*/
     height: 30rem;
 }
 
@@ -78,7 +75,6 @@ body {
 .single-1, .single-2, .single-3, .single-4 {
     align-items: center;
     text-align: center;
-    /*display: inline-block;*/
 }
 
 .slide-1-content {
@@ -124,7 +120,6 @@ body {
     text-align: center;
     font-size: 24px;
     color: white;
-    /*font-weight: 400;*/
 }
 
 .TEST {
@@ -176,35 +171,40 @@ body {
     list-style: none;
     color: white;
     font-size: 21px;
-    /*margin: 3rem;*/
     margin-bottom: 3rem;
     display: flex;
     justify-content: center;
     flex-direction: row;
 }
 
-/*.aa {*/
-/*color: white;*/
-/*list-style: none;*/
-/*text-decoration: none;*/
-/*transition: 0.5s;*/
-/*}*/
-
 .contacts-content {
     display: flex;
     justify-content: start;
 }
 
-.avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
+.youtube-img {
     transform: scale(1.2);
     width: 200px;
     height: 65px;
     transition: 0.4s;
 }
 
+.fb-img {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    margin-left: 0.8rem;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
 .avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover {
     transform: scale(1.5);
-    /*transition: 0.4s;*/
 }
 
 .twitter-img {
@@ -212,9 +212,8 @@ body {
     transition: 0.4s;
     text-align: center;
     align-items: center;
-    width: 100px;
-    height: 100px;
-    filter: blinds(20);
+    width: 50px;
+    height: 50px;
 }
 
 .contact-information {
@@ -224,7 +223,6 @@ body {
 
 .information {
     text-align: center;
-    /*margin-top: 3rem;*/
     margin-top: -16rem;
     margin-bottom: 3rem;
     font-size: 22px;
@@ -250,6 +248,13 @@ body {
     display: none;
 }
 
+
+
+.contacts-content {
+    display: flex;
+    justify-content: start;
+}
+
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
 
 @media screen and (max-width: 65rem) {
@@ -273,7 +278,6 @@ body {
     .singles {
         display: flex;
         justify-content: center;
-
         flex-direction: column;
         margin: 2rem;
     }
@@ -312,8 +316,6 @@ body {
     .big-logo-contacts {
         display: flex;
         justify-content: center;
-        /*justify-content: center;*/
-        /*flex-direction: row;*/
     }
 
     .information {
@@ -332,7 +334,6 @@ body {
         justify-content: center;
         text-align: center;
         align-items: center;
-        /*flex-direction: row;*/
         width: 290px;
         height: 200px;
     }
@@ -424,7 +425,6 @@ body {
     .carousel {
         height: 32rem;
     }
-
 }
 
 
