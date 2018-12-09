@@ -214,6 +214,7 @@ body {
     align-items: center;
     width: 100px;
     height: 100px;
+    filter: blinds(20);
 }
 
 .contact-information {
@@ -248,6 +249,7 @@ body {
 .big-logo-contacts-for-mobile {
     display: none;
 }
+
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
 
 @media screen and (max-width: 65rem) {
@@ -296,7 +298,7 @@ body {
         font-weight: 400;
     }
 
-    .avaible-on-soundcloud, .avaible-on-apple-music, .youtube-img, .spotify-img {
+    .youtube-img {
         transform: scale(1.1);
         width: 200px;
         height: 70px;
@@ -376,8 +378,6 @@ body {
         height: 45rem;
     }
 }
-
-
 
 @media screen and (max-width: 468px) {
     .test-slider-albums-image {
