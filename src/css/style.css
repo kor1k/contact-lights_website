@@ -416,6 +416,15 @@ body {
     }
 }
 
+@media screen and (max-width: 340px) {
+    .test-slider-albums-image {
+        height: 13.5rem;
+    }
 
+    .carousel {
+        height: 32rem;
+    }
+
+}
 
 
