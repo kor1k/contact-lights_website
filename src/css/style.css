@@ -91,12 +91,36 @@ body {
     font-size: 2rem;
 }
 
+.fab-color-soundcloud-orange {
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.fab-color-soundcloud-orange:hover {
+    color: orange;
+}
+
+
 .fab-color-green-spotify {
     font-size: 2rem;
+    transition: 0.3s;
+}
+
+.fab-color-green-spotify:hover {
+    color: green;
 }
 
 .fab-color-white {
     font-size: 2rem;
+}
+
+.fab-color-bandcamp {
+    font-size: 2rem;
+    transition: 0.3s;
+}
+
+.fab-color-bandcamp:hover {
+    color: #639aa9;
 }
 
 .singles {
@@ -402,7 +426,7 @@ body {
     }
 
     .carousel {
-        height: 48rem;
+        height: 50rem;
     }
 
     .singles {
@@ -427,7 +451,7 @@ body {
     }
 
     .carousel {
-        height: 45rem;
+        height: 48rem;
     }
 }
 
@@ -437,7 +461,7 @@ body {
     }
 
     .carousel {
-        height: 37rem;
+        height: 39rem;
     }
 }
 
@@ -447,7 +471,7 @@ body {
     }
 
     .carousel {
-        height: 33rem;
+        height: 35rem;
     }
 }
 
