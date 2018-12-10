@@ -28,7 +28,7 @@ body {
 }
 
 .nav-link:hover {
-    font-size: 19px;
+    color: #d69d54 !important;
 }
 
 .asd {
@@ -46,7 +46,7 @@ body {
 }
 
 .carousel {
-    height: 30rem;
+    height: 32.5rem;
 }
 
 .slide-1 {
@@ -79,9 +79,24 @@ body {
     margin-top: 9rem;
 }
 
+.links-music {
+    text-align: left;
+    margin-left: 1rem;
+    /*margin-left: 2rem;*/
+}
+
 .fab {
     color: white;
     margin: 1rem;
+    font-size: 2rem;
+}
+
+.fab-color-green-spotify {
+    font-size: 2rem;
+}
+
+.fab-color-white {
+    font-size: 2rem;
 }
 
 .singles {
@@ -161,6 +176,7 @@ body {
 }
 
 .fas {
+    /*margin-top: 1rem;*/
     color: white;
     font-size: 1.5rem;
 }
@@ -372,6 +388,10 @@ body {
 
     .fb-img {
         margin-left: 2rem;
+    }
+
+    .fas {
+        margin-top: 1.5rem;
     }
 
 }
