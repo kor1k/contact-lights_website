@@ -340,8 +340,8 @@ body {
     }
 
     .big-logo-contacts-for-mobile {
-        filter: blur(.5rem);
         margin-top: 3rem;
+        
         margin-bottom: 3rem;
         display: flex;
         justify-content: center;
@@ -351,10 +351,7 @@ body {
         height: 200px;
     }
 
-    .big-logo-contacts-for-mobile:active {
-        filter: blur(0px);
 
-    }
 
     .youtube-img {
         display: flex;
