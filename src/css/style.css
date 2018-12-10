@@ -7,8 +7,25 @@ body {
     background-color: #0f0f0f;
 }
 
+/*#loading {*/
+    /*background: url('../images/Eclipse-1s-200px.gif') no-repeat center center;*/
+    /*position: absolute;*/
+    /*background-color: white;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*z-index: 9999999;*/
+/*}*/
+
+
+
 .navbar {
     z-index: 9999;
+}
+
+.current-page-color {
+    color: #d69d54; !important;
 }
 
 .nav-logo-white {
@@ -80,7 +97,7 @@ body {
 }
 
 .singles {
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: flex;
     justify-content: space-around;
     margin-bottom: 3rem;
@@ -415,21 +432,21 @@ body {
 
 @media screen and (max-width: 415px) {
     .test-slider-albums-image {
-        height: 14.5rem;
+        height: 15.5rem;
     }
 
     .carousel {
-        height: 32rem;
+        height: 33rem;
     }
 }
 
 @media screen and (max-width: 360px) {
     .test-slider-albums-image {
-        height: 13rem;
+        height: 14rem;
     }
 
     .carousel {
-        height: 31rem;
+        height: 32rem;
     }
 
     .photo-yarik {
