@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #1b1e21;
+    background-color: #0f0f0f;
 }
 
 .navbar {
@@ -24,6 +24,12 @@ body {
 
 .nav-link:hover {
     font-size: 19px;
+}
+
+.asd {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
 }
 
 .carousel {
@@ -110,7 +116,7 @@ body {
     display: flex;
     justify-content: center;
     height: 5rem;
-    background-color: #1b1e21;
+    background-color: #0f0f0f;
 }
 
 .footer-content {
@@ -118,7 +124,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     color: white;
 }
 
@@ -183,8 +189,11 @@ body {
 }
 
 .youtube-img {
+    display: flex;
+    /*justify-content: start;*/
+    margin-left: 2rem;
     transform: scale(1.2);
-    width: 200px;
+    /*width: 100px;*/
     height: 65px;
     transition: 0.4s;
 }
@@ -198,12 +207,10 @@ body {
     margin-left: 0.8rem;
     align-items: center;
     text-align: center;
+    transition: .4s;
 }
 
-
-
-
-.avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover {
+.avaible-on-soundcloud:hover, .avaible-on-apple-music:hover, .youtube-img:hover, .spotify-img:hover, .twitter-img:hover, .fb-img:hover {
     transform: scale(1.5);
 }
 
@@ -233,7 +240,7 @@ body {
 
 .big-logo-contacts {
     position: relative;
-    top: -30rem;
+    top: -27rem;
     left: 30rem;
     width: 500px;
     filter: blur(0.7rem);
@@ -247,8 +254,6 @@ body {
 .big-logo-contacts-for-mobile {
     display: none;
 }
-
-
 
 .contacts-content {
     display: flex;
@@ -341,6 +346,20 @@ body {
     .big-logo-contacts-for-mobile:active {
         filter: blur(0px);
 
+    }
+
+    .youtube-img {
+        display: flex;
+        /*justify-content: start;*/
+        margin-left: 2rem;
+        transform: scale(1.2);
+        width: 80px;
+        height: 65px;
+        transition: 0.4s;
+    }
+
+    .fb-img {
+        margin-left: 2rem;
     }
 
 }
