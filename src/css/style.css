@@ -32,6 +32,14 @@ body {
     text-align: center;
 }
 
+.nav-logo-white {
+    margin-right: 3rem;
+}
+
+.margin-nav-top-list {
+    margin-right: 3rem;
+}
+
 .carousel {
     height: 30rem;
 }
