@@ -123,6 +123,15 @@ body {
     color: #639aa9;
 }
 
+.play-button-singles {
+    transition: 0.4s;
+}
+
+.play-button-singles:hover {
+    color: #d39e00;
+    font-size: 32px;
+}
+
 .singles {
     margin-top: 5rem;
     display: flex;
@@ -170,6 +179,7 @@ body {
     height: 5rem;
     background-color: #0f0f0f;
 }
+
 
 .footer-content {
     display: flex;
