@@ -100,7 +100,6 @@ body {
     color: orange;
 }
 
-
 .fab-color-green-spotify {
     font-size: 2rem;
     transition: 0.3s;
@@ -149,15 +148,20 @@ body {
 
 }
 
-.soundcloud-logo, .apple-logotype {
+.soundcloud-logo, .apple-logotype, .bandcamp-logotype {
     height: 50px;
     margin-left: 1rem;
     transition: .4s;
 }
 
-.spotify-logotype, .music-logotype {
+.spotify-logotype, .music-logotype, .bandcamp-logotype, .deezer-logo {
     height: 50px;
     transition: .4s;
+}
+
+.deezer-logo {
+    width: 48px;
+    margin-right: 1.5rem;
 }
 
 .apple-logotype {
@@ -165,14 +169,17 @@ body {
     margin-bottom: 8px;
 }
 
+.yandex-logotype {
+    width: 38px;
+    height: 38px;
+    transition: .4s;
+}
 
-
-
-.music-logotype, .spotify-logotype {
+.music-logotype, .spotify-logotype, .deezer-logo {
     margin-left: 1.4rem;
 }
 
-.soundcloud-logo:hover, .spotify-logotype:hover, .apple-logotype:hover {
+.soundcloud-logo:hover, .spotify-logotype:hover, .apple-logotype:hover, .bandcamp-logotype:hover, .deezer-logo:hover, .yandex-logotype:hover {
     transform: scale(1.2);
 }
 
@@ -211,7 +218,6 @@ body {
     height: 5rem;
     background-color: #0f0f0f;
 }
-
 
 .footer-content {
     display: flex;
