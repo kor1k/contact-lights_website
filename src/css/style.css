@@ -144,6 +144,38 @@ body {
     text-align: center;
 }
 
+.deezer-logotype {
+    margin: 0 1.8rem 0 1.6rem;
+
+}
+
+.soundcloud-logo, .apple-logotype {
+    height: 50px;
+    margin-left: 1rem;
+    transition: .4s;
+}
+
+.spotify-logotype, .music-logotype {
+    height: 50px;
+    transition: .4s;
+}
+
+.apple-logotype {
+    height: 45px;
+    margin-bottom: 8px;
+}
+
+
+
+
+.music-logotype, .spotify-logotype {
+    margin-left: 1.4rem;
+}
+
+.soundcloud-logo:hover, .spotify-logotype:hover, .apple-logotype:hover {
+    transform: scale(1.2);
+}
+
 .slide-1-content {
     width: 100%;
 }
