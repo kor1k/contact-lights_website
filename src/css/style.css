@@ -3,6 +3,11 @@
     text-decoration: none;
 }
 
+a {
+    text-decoration: none;
+    list-style: none;
+}
+
 body {
     background-color: #0f0f0f;
 }
@@ -168,18 +173,30 @@ body {
 .deezer-logo {
     width: 48px;
     height: 48px;
-    margin-right: 1.5rem;
+    margin-right: 0.7rem;
 }
 
 .apple-logotype {
     height: 45px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
-.yandex-logotype {
-    width: 38px;
-    height: 38px;
+/*.yandex-logotype {*/
+    /*width: 38px;*/
+    /*height: 38px;*/
+    /*transition: .4s;*/
+/*}*/
+
+.google-play-logotype {
+    /*width: 50px;*/
+    /*height: 50px;   */
+    color: orangered;
     transition: .4s;
+    margin-right: 1rem;
+}
+
+.google-play-logotype:hover {
+    transform: scale(1.3);
 }
 
 .music-logotype, .spotify-logotype, .deezer-logo {
