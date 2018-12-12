@@ -155,12 +155,19 @@ body {
 }
 
 .spotify-logotype, .music-logotype, .bandcamp-logotype, .deezer-logo {
+    text-align: center;
+    align-items: center;
     height: 50px;
     transition: .4s;
 }
 
+.bandcamp-logotype {
+    margin-right: 0.7rem;
+}
+
 .deezer-logo {
     width: 48px;
+    height: 48px;
     margin-right: 1.5rem;
 }
 
