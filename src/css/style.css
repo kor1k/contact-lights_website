@@ -545,6 +545,14 @@ body {
     .carousel {
         height: 35rem;
     }
+
+    .photo-yarik {
+        display: flex;
+        justify-content: space-between;
+        /*width: 210px;*/
+        text-align: left;
+        height: 225px;
+    }
 }
 
 @media screen and (max-width: 360px) {
@@ -558,9 +566,10 @@ body {
 
     .photo-yarik {
         display: flex;
-        justify-content: space-between;
-        width: 210px;
-        height: 270px;
+        /*justify-content: space-between;*/
+        /*width: 210px;*/
+        text-align: left;
+        height: 225px;
     }
 }
 
