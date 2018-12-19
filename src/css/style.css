@@ -566,10 +566,9 @@ body {
 
     .photo-yarik {
         display: flex;
-        /*justify-content: space-between;*/
-        /*width: 210px;*/
-        text-align: left;
-        height: 225px;
+        text-align: center;
+        /*width: 280px;*/
+        height: 240px;
     }
 }
 
