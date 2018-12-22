@@ -182,9 +182,9 @@ body {
 }
 
 /*.yandex-logotype {*/
-    /*width: 38px;*/
-    /*height: 38px;*/
-    /*transition: .4s;*/
+/*width: 38px;*/
+/*height: 38px;*/
+/*transition: .4s;*/
 /*}*/
 
 .google-play-logotype {
@@ -392,6 +392,8 @@ body {
 
 /*///////////////////////////!***CONTACTS***!////////////////////////*/
 
+/*///////////////////////////!***MEDIA***!//////////////////////////*/
+
 @media screen and (max-width: 65rem) {
     .test-slider-albums {
         display: flex;
@@ -492,6 +494,8 @@ body {
 
 }
 
+/*///////////////////////////!***MEDIA***!////////////////////////*/
+
 @media screen and (max-width: 1024px) {
     .test-slider-albums-image {
         height: 30rem;
@@ -582,4 +586,4 @@ body {
     }
 }
 
-
+/*///////////////////////////!***MEDIA***!////////////////////////*/
