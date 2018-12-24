@@ -50,6 +50,11 @@ body {
     margin-right: 3rem;
 }
 
+.video {
+    padding-top: 1rem;
+    margin-bottom: 4rem;
+}
+
 .carousel {
     height: 32.5rem;
 }
